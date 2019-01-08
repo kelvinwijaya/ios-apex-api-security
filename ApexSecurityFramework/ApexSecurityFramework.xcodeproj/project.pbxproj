@@ -25,6 +25,7 @@
 		1AAEF1E121E4DAAB00A6A7D1 /* SecurityUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A42D7F921E4D42800AD83E0 /* SecurityUtil.swift */; };
 		1AAEF1F021E4DC7100A6A7D1 /* certificates in Resources */ = {isa = PBXBuildFile; fileRef = 1AAEF1EF21E4DC7100A6A7D1 /* certificates */; };
 		1AAEF1F121E4DCD500A6A7D1 /* certificates in Resources */ = {isa = PBXBuildFile; fileRef = 1AAEF1EF21E4DC7100A6A7D1 /* certificates */; };
+		1AAEF22821E4FD3000A6A7D1 /* ApexSecurityFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1AAEF22721E4FD3000A6A7D1 /* ApexSecurityFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		1AAEF1DA21E4D92600A6A7D1 /* L2SignatureTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2SignatureTest.swift; sourceTree = "<group>"; };
 		1AAEF1DB21E4D92600A6A7D1 /* L1SignatureTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1SignatureTest.swift; sourceTree = "<group>"; };
 		1AAEF1EF21E4DC7100A6A7D1 /* certificates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = certificates; sourceTree = "<group>"; };
+		1AAEF22721E4FD3000A6A7D1 /* ApexSecurityFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ApexSecurityFramework.podspec; path = ../ApexSecurityFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		1AC4A18C21E4A73300D66A5A = {
 			isa = PBXGroup;
 			children = (
+				1AAEF22721E4FD3000A6A7D1 /* ApexSecurityFramework.podspec */,
 				1AAEF1D721E4D8D900A6A7D1 /* Tests */,
 				1A42D7F821E4D3E100AD83E0 /* Sources */,
 				1A42D7DD21E4D01A00AD83E0 /* ApexSecurityFrameworkiOS */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AAEF1F021E4DC7100A6A7D1 /* certificates in Resources */,
+				1AAEF22821E4FD3000A6A7D1 /* ApexSecurityFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
